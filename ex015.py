@@ -1,0 +1,5 @@
+km = float(input('Quantos quilômetros? '))
+dias = int(input('Quantos dias? '))
+preco = (dias * 60) + (km * 0.15)
+print('Resumo do Aluguel')
+print('Total de Quilometros: {:.2f}Km \nTotal de dias: {} dias \nTotal a pagar: R${:.2f}'.format(km, dias, preco))
